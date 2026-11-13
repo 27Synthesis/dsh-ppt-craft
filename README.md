@@ -20,7 +20,18 @@ dsh plugin --profile web add "$DSH_HOME/dsh-go/plugins/dsh-ppt-craft"
 # 重启引擎后四个工具出现
 ```
 
-依赖：`python3` + `python-pptx` + `Pillow`（`pip install python-pptx pillow`）。没有 python 的话工具会直接告诉你。
+依赖：`python3` + `python-pptx` + `Pillow`（`pip install python-pptx pillow`）。没有 python 的话工具会直接告诉你。**装完要重启引擎**，四个工具才会出现。
+
+### 只装 Skill（不带插件）
+
+技能是纯文档 + 一个可直接跑的脚本，不依赖插件：
+
+```bash
+cp -r dsh-ppt-craft/skill ~/.dsh/skills/dsh-ppt-craft
+python3 ~/.dsh/skills/dsh-ppt-craft/scripts/craft.py <<< '{"cmd":"audit","args":{"path":"稿.pptx"}}'
+```
+
+它教的是「怎么做」：先定结构、怎么让卡片浮起来、动画只做三件事、动手顺序、交付前八项检查；细节在 `skill/references/`（设计默认值 / 动画 XML 原理 / 十个坑）。
 
 ## 用
 
