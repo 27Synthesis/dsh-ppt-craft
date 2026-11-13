@@ -38,7 +38,7 @@ whenToUse: 用户要做或改一份 .pptx（尤其是要讲的专业内容），
 - 一页最多 3 个视觉块；文字块宽度别超过 2/3 版心
 - 数字、年份、关键结论用强调色或超大字号，制造视线落点
 
-细节和数值见 [设计默认值](references/design-system.md)。
+细节和数值见 [设计默认值](references/design-system.md)；想换气质（瑞士国际 / 电子杂志）见 [另外三套配色](references/palettes.md)——换色不换做法。
 
 ## 3. 动画：三件事就够
 
