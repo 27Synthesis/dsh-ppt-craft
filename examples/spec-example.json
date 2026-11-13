@@ -1,0 +1,27 @@
+{
+  "transition": "fade",
+  "auto": { "pages": [5, 6, 7, 9], "stagger": 150, "dur": 450 },
+  "slides": {
+    "4": [
+      [
+        { "eff": "wipe", "target": ["ribbon1"], "dir": "left", "dur": 650 },
+        { "eff": "pulse", "target": ["Rounded Rectangle 7"] },
+        { "eff": "pulse", "target": ["Rounded Rectangle 23"], "delay": 400 }
+      ],
+      [
+        { "eff": "hide", "target": ["ribbon1"], "dur": 200 },
+        { "eff": "wipe", "target": ["ribbon2"], "dir": "left", "dur": 420, "delay": 200 },
+        { "eff": "wipe", "target": ["ribbon3"], "dir": "left", "dur": 420, "delay": 640 }
+      ]
+    ],
+    "12": [
+      [ { "eff": "pulse", "target": ["Rounded Rectangle 8"], "scale": 1.09 } ],
+      [
+        { "eff": "wipe", "target": ["Rounded Rectangle 15"], "dir": "down", "dur": 420 },
+        { "eff": "wipe", "target": ["Rounded Rectangle 16"], "dir": "down", "dur": 420, "delay": 140 },
+        { "eff": "wipe", "target": ["Rounded Rectangle 17"], "dir": "down", "dur": 420, "delay": 280 },
+        { "eff": "wipe", "target": ["Rounded Rectangle 18"], "dir": "down", "dur": 420, "delay": 420 }
+      ]
+    ]
+  }
+}

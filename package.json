@@ -1,0 +1,22 @@
+{
+  "name": "dsh-ppt-craft",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "PPT 工艺刀：卡片悬浮阴影 / 页面切换 / 组件动画 / 箭头轨道 / 闪烁强调 / 渲染自检，一次做对不再返工",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "keywords": ["dsh", "pptx", "powerpoint", "animation", "design"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/27Synthesis/dsh-ppt-craft.git"
+  }
+}
